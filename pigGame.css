@@ -1,0 +1,127 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+#mainDiv{
+    height: 100%;
+    width: 100%;
+    background:radial-gradient(rgba(76, 0, 255, 0.959),green,blue,rgb(174, 0, 255),orange,pink);
+    position: absolute;
+
+}
+font{
+    font-size: 30px;
+    color: chocolate;
+    margin: 10px;
+}
+
+#ws{
+    height: 30px;
+    width: 170px;
+   
+}
+#dva{
+    animation: visible 3.5s ease-in-out;
+    
+}
+@keyframes visible{
+    0%{
+        visibility: hidden;
+    }
+    50%{
+        visibility: hidden;
+        transform: translate(0px,-110px);
+    }
+    100%{
+        visibility: visible;
+        transform: translate(0px,0px);
+    }
+}
+#inDiv{
+    height: 500px;
+    width: 700px;
+    background-color: #fff;
+    display: flex;
+    position: absolute;
+    top: 80px;
+    left: 320px;
+    animation: pawan 3s linear;
+}
+@keyframes pawan{
+    0%{
+        transform: scale(0);
+    }
+    50%{
+        
+      transform: scale(0.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+#inDiv:hover{
+    box-shadow:  5px 5px 10px  black;
+}
+.dv1{
+    height: 100%;
+    width: 50%; 
+    text-align: center; 
+}
+.ch1{
+margin-top: 40px;
+}
+#dvh12{
+color: red;
+}
+#dvh22{
+    color: red;
+    }
+#dv11{
+    height: 120px;
+    width: 160px;
+    background-color:red;
+    margin: 100px auto;
+    text-align: center;
+}
+
+#cscore1{
+    color: white; 
+    margin-top: 30px;  
+}
+#cscore2{
+    color: white; 
+    margin-top: 30px;  
+}
+.btn{
+    position: absolute;
+    height: 30px;
+    width: 100px;
+    border: none;
+    outline: none;
+    background-color:pink;
+}
+#btn1{
+    top: 30px;
+    left: 300px;
+}
+#btn2{
+    top: 300px;
+    left: 300px;
+}
+#btn3{
+    top: 350px;
+    left: 300px;
+}
+#dimg{
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    top: 100px;
+    left: 290px;
+}
