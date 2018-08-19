@@ -11,7 +11,7 @@ html,body{
 #mainDiv{
     height: 100%;
     width: 100%;
-    background:radial-gradient(rgba(76, 0, 255, 0.959),green,blue,rgb(174, 0, 255),orange,pink);
+    background:linear-gradient(green,orange);
     position: absolute;
 
 }
